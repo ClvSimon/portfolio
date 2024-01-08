@@ -1,0 +1,238 @@
+/* Réinitialisation des marges et des padding du corps de la page */
+body {
+    font-family: Arial; /* Police par défaut */
+    margin: 0;
+	background-image: url('fond_test.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Style de la barre de navigation */
+nav {
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+	position: flex;
+	width: 100%;
+}
+nav ul li{
+	padding: 10px;
+}
+
+/* Style de la liste non ordonnée (ul) du menu */
+ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Supprime le rembourrage par défaut */
+    overflow: hidden; /* Gestion du dépassement pour éviter que les éléments flottants ne déforment la mise en page */
+}
+
+/* Style des éléments de la liste (li) du menu */
+li {
+    float: left; /* Les éléments flottent à droite pour créer un menu horizontal */
+}
+
+/* Style des liens (a) du menu */
+a {
+    display: block; /* Les liens sont affichés en tant que bloc pour occuper toute la largeur du conteneur li */
+    color: #EE8DD6; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    padding: 14px 16px; /* Rembourrage pour l'apparence du bouton */
+    text-decoration: none; /* Supprime la soulignement par défaut des liens */
+}
+
+/* Style des liens au survol (hover) */
+a:hover {
+    background-color: #EE8DD6; /* Couleur de fond au survol */
+    color: black; /* Changement de couleur du texte au survol */
+	border-radius: 10px;
+}
+
+.logobarre{
+	border-radius: 20px;
+	width: 40px; /* Définir la largeur souhaitée */
+    height: auto; /* Maintenir le ratio de l'image */
+}
+
+
+
+.accueil {
+            
+			margin-right:200px;
+			margin-left:200px;
+        }
+.img_accueil {
+	border-radius: 50%;/* rend l'image ronde */
+	width: 300px; /* Définir la largeur souhaitée */
+    height: auto; /* Maintenir le ratio de l'image pour longueur */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+}
+.text {
+			white-space: pre-line;
+        }
+		
+		
+.monportfolio{
+	background-color: #333;
+    padding: px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+	margin-top:70px;
+	
+}		
+.textmonportfolio{
+	margin-top:2%;
+}
+	
+		
+		
+		
+		
+.formation {
+            display: flex;
+            align-items: center;
+			margin-right:200px;
+			margin-left:200px;
+			white-space: pre-line;
+        }	
+.imgformat1 {
+	border-radius: 20px;
+	width: 300px; /* Définir la largeur souhaitée */
+    height: auto; /* Maintenir le ratio de l'image */
+}	
+.imgformat2 {
+	margin-top: 100px;
+	border-radius: 20px;
+	width: 500px; /* Définir la largeur souhaitée */
+    height: auto; /* Maintenir le ratio de l'image */
+}
+.formatexte {
+			text-align:center;
+			flex: 1; /* Fait en sorte que le texte occupe tout l'espace restant */
+			
+        }
+.alineaformat {
+	text-indent: 40px; /* Ajustez la valeur selon vos besoins */
+}
+
+
+
+
+
+.mescompetences {
+            display: flex;
+            align-items: center;
+			margin-right:200px;
+			margin-left:200px;
+			white-space: pre-line;
+        }
+.imgcompetences1 {
+	border-radius: 20px;
+	width: 400px; /* Définir la largeur souhaitée */
+    height: auto; /* Maintenir le ratio de l'image */
+}
+.imgcompetences2 {
+	border-radius: 20px;
+	width: 400px; /* Définir la largeur souhaitée */
+    height: auto; /* Maintenir le ratio de l'image */
+	margin-top:100px;
+}
+.competexte {
+			text-align:center;
+			flex: 1; /* Fait en sorte que le texte occupe tout l'espace restant */
+			margin-left:100px;
+        }
+.alineacompet {
+	text-align: left;
+	
+}
+
+
+
+
+.apropos{
+	margin-right:200px;
+	margin-left:200px;
+	white-space: pre-line;
+	text-align:center;
+}
+.biographie{
+	text-align:center;
+}
+.apropos_suite{
+	display: flex;
+}
+.imgapropos{
+	border-radius: 20px;
+	width: 100px; /* Définir la largeur souhaitée */
+    height: 400px; /* Maintenir le ratio de l'image */
+	margin-right:20px;
+}
+
+
+
+
+.monCV{
+	border-radius: 15px; /* Coins arrondis */
+	transition: background-color 0.3s ease; /* Animation de transition */
+	margin-left:40%;
+	margin-right:40%;
+	margin-bottom: 30px;
+	background-color: #333; 
+	color:#EE8DD6;
+}
+.monCV:hover {
+	color:#333;
+}
+
+
+
+.contact {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+			
+            bottom: 0;
+            width: 97%;
+			
+        }
+.contact-section {
+            width: 30%; /* Ajuste la largeur de chaque section selon tes besoins */
+            margin-bottom: 20px;
+			color:#EE8DD6;
+        }
+.reseaux{
+			color:#EE8DD6;
+		}
+.social-links a {
+            
+            margin: 10px;
+            text-decoration: none;
+        }
+
+
+
+
+
+
+h1{
+	color: #EE8DD6;
+}
+.h2-rose{
+	color: #EE8DD6;
+}
+h4{
+	text-align:left;
+}
+p{
+	text-align: left;
+}
+
+
+
